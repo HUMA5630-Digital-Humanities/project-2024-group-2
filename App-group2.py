@@ -6,7 +6,6 @@ from io import BytesIO
 #from API import transfer_style
 
 
-#这里改标题，page title后面的引号内容是标题，icon里面是网页标志
 st.set_page_config(page_title="The Romance of West Chamber",
                    page_icon="./assets/favicon.png", layout="centered")
 
@@ -45,8 +44,7 @@ set_bg_color()
 # set_video_size()
 
 
-#这段写引子，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）举一反三
-#We 开始后面都是正文
+#引文，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）
 st.markdown(
     "<b> <i> The painting has come to life! </i> </b>  &nbsp; Step into the world depicted by Wang Shuhui and immerse yourself in the story of The Romance of the Western Chamber.", unsafe_allow_html=True
 )
@@ -54,15 +52,12 @@ st.caption("  ")
 
 
 
-#下面这一大段是主要的展示部分，coll是左边的一列，colr是右边的一列，默认展示动图，如果太小自行在外面放大（就是把动图本身放大），别试着在网页里放大，st容器有问题，caption对应的是每一列的文字部分
-#默认展示动图，如果要展示视频就取消colr下面两行的注释，并且注释掉最上面一行
+#下面这一大段是主要的展示部分，coll是左边的一列，colr是右边的一列，，caption对应的是每一列的文字部分
 coll, colr = st.columns(2)
-# Example Image
 with coll:
      st.image("1-gif.gif", caption='Enchantment, Renting of Quarters, Religious Service')
 with colr:
      st.video("1-talk.mp4")
-#st.image(image="./assets/nst.png")
 st.caption("During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Chang'an to take the exams, he passed by the temple and fell in love with Yingying at first sight.")
 st.caption("Since meeting Yingying, Zhang Sheng decides to stay at the temple and asks the abbot for a room in the west chamber.")
 st.caption("Zhang Sheng met Hongniang, said: “My name is Zhang Gong, twenty-three years old, has not married. May I know if your master is married?” Hongniang turned around and left.")
@@ -70,7 +65,6 @@ st.caption("  ")
 st.caption("  ")
 
 coll, colr = st.columns(2)
-# Example Image
 with coll:
     st.image("2-gif.gif", caption='Verse Exchange, Alarm, Invitation')
 with colr:
@@ -82,7 +76,6 @@ st.caption("  ")
 st.caption("  ")
 
 coll, colr = st.columns(2)
-# Example Image
 with coll:
     st.image("3-gif.gif", caption='The Promise Broken, The Lute, First Expectation, The Billet-Doux')
 with colr:
@@ -95,7 +88,6 @@ st.caption("  ")
 st.caption("  ")
 
 coll, colr = st.columns(2)
-# Example Image
 with coll:
     st.image("4-gif.gif", caption='Repudiation, Illness, Further Expectation')
 with colr:
@@ -107,7 +99,6 @@ st.caption("  ")
 st.caption("  ")
 
 coll, colr = st.columns(2)
-# Example Image
 with coll:
     st.image("5-gif.gif", caption='Tryst, Rose in The Dock, Farewell Feast')
 with colr:
