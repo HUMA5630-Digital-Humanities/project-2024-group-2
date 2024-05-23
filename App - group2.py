@@ -42,7 +42,7 @@ set_bg_color()
 # set_video_size()
 
 
-#这段写引子，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）
+#引子
 st.markdown(
     "<b> <i> The painting has come to life! </i> </b>  &nbsp; Step into the world depicted by Wang Shuhui and immerse yourself in the story of The Romance of the Western Chamber.", unsafe_allow_html=True
 )
@@ -50,7 +50,7 @@ st.caption("  ")
 
 
 
-#主体展示部分，coll是左边的一列，colr是右边的一列，caption对应的是每一列的文字部分
+#主体
 coll, colr = st.columns([5, 3])
 with coll:
      st.image("1-gif.gif", caption='Enchantment, Renting of Quarters, Religious Service')
