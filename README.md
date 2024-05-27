@@ -13,3 +13,10 @@ Let Wang Shuhui’s The Romance of the West Chamber come alive
 
 # URL
 https://huma5630-2024-group-2.streamlit.app/
+
+[![preview_website_group2](preview_website_group2.png)](https://huma5630-2024-group-2.streamlit.app/)
+
+# Presentation Slides
+[PDF version](https://github.com/HUMA5630-Digital-Humanities/project-2024-group-2/blob/main/Final%20Project%20-%20Group2.pdf)
+
+[![preview_presentation-slides_group2](preview_presentation-slides_group2.png)](https://github.com/HUMA5630-Digital-Humanities/project-2024-group-2/blob/main/Final%20Project%20-%20Group2.pdf)
