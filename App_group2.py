@@ -7,7 +7,7 @@ from io import BytesIO
 
 
 st.set_page_config(page_title="The Romance of West Chamber",
-                   page_icon="./assets/favicon.png", layout="centered")
+                   page_icon="favicon.png", layout="centered")
 
 # -------------Header Section------------------------------------------------
 
